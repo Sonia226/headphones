@@ -1,0 +1,90 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+    @media (max-width: 480px) {
+
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    padding: 80px;
+    font-family: "source sans pro";
+}
+
+header{
+    display:flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.nav-links{
+    display: inline-flex;
+    gap: 40px;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover,
+a:active {
+  color: #FF6565;
+  transition: color 0.3s, opacity 0.3s;
+}
+
+#one{
+    height: 100%;
+}
+
+.main{
+    background-image: url(images/headphones_hero_1.jpg);
+    width: 100%vw;
+    height: 700px;
+    flex-shrink: 0;
+    color: #FFF;
+}
+
+.main-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 120vh;
+    text-align: center;
+    font-size: 22px;
+}
+
+#lorem{
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+}
+
+.main button{
+    background-color: #FF6565;
+    color: white;
+    width: 162px;
+    border-radius: 30px;
+    height: 44px;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+    text-decoration: none;
+    transition: color 0.3s,
+}
+
+button:hover,
+button:active {
+  opacity: 0.9;
+  color: #FF6565;
+}

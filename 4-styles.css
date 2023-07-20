@@ -42,7 +42,7 @@ header{
 a:hover,
 a:active {
   color: #FF6565;
-  transition: color 0.3s, opacity 0.3s;
+  transition: color 0.3s, opacity 0.7s;
 }
 
 #one{
@@ -154,7 +154,7 @@ button:active {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-shrink: 0;
     text-align: center;
